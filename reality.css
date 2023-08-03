@@ -1,0 +1,59 @@
+
+.thumbnail:nth-child(1),#page_names >text:nth-child(1) {
+    opacity: 1;
+} 
+#bar {
+    width: calc(0vw + 2vw*var(--loader));
+}
+figure{
+    margin: auto;
+}
+figure>video{
+    height: 30vh;
+    width: 20vw;
+    object-fit: cover;
+    margin-top: 8vh;
+    border-radius: 0.5vh;
+}
+figcaption{
+    text-align: center;
+    text-decoration: none ;
+    color: black;
+    transform:scale(var(--dim1),var(--dim2))
+    
+}
+figure>img{
+    height: 20vh;
+    width: 20vw;
+    object-fit: cover;
+    margin-top: 8vh;
+
+}
+figcaption{
+    text-align: center;
+    text-decoration: none ;
+    color: black;}
+
+figure>img{
+    height:30vh;
+    width:30vw;
+    object-fit:cover;
+    margin-top:8vh;
+}
+figcaption{
+    text-align: center;
+    text-decoration: none ;
+    color: black;}
+    
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
